@@ -1,0 +1,21 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "tamagottimod:block/spawner_td"
+    },
+    "elements":[
+        {
+            "name": "front",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up"   : { "texture": "#top", "cullface": "up" },
+                "down" : { "texture": "#top", "cullface": "down" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side", "cullface": "south" },
+                "east" : { "texture": "#east", "cullface": "east" },
+                "west" : { "texture": "#side", "cullface": "west" }
+            }
+        }
+    ]
+}

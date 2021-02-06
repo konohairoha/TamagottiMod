@@ -1,0 +1,70 @@
+{
+	"parent": "block/thin_block",
+	"textures": {
+		"0": "tamagottimod:block/t_wood_1",
+		"1": "tamagottimod:block/t_wood_2",
+		"2": "tamagottimod:block/t_wood_3",
+		"particle": "tamagottimod:block/t_wood_1"
+	},
+	"elements": [
+		{
+			"name": "1",
+			"from": [0, 0, 1],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 15, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 15, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 15], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "4",
+			"from": [0, 15, 0.5],
+			"to": [16, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0.5], "texture": "#2"}
+			}
+		},
+		{
+			"name": "3",
+			"from": [15, 0, 0.7],
+			"to": [16, 15, 1],
+			"faces": {
+				"north": {"uv": [0, 1, 1, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.3, 15], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 15], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0.3, 15], "texture": "#2"},
+				"up": {"uv": [0, 0, 1, 0.3], "texture": "#missing"},
+				"down": {"uv": [0, 0, 1, 0.3], "texture": "#2"}
+			}
+		},
+		{
+			"name": "2",
+			"from": [0, 0, 0.7],
+			"to": [1, 15, 1],
+			"faces": {
+				"north": {"uv": [15, 1, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.3, 15], "texture": "#2"},
+				"south": {"uv": [0, 0, 1, 15], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0.3, 15], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 0.3], "texture": "#missing"},
+				"down": {"uv": [0, 0, 1, 0.3], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

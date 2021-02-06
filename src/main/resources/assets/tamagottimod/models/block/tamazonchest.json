@@ -1,0 +1,24 @@
+{   "parent": "block/thin_block",
+	"textures": {
+		"0": "tamagottimod:block/t_card_t",
+		"1": "tamagottimod:block/t_card_side1",
+		"2": "tamagottimod:block/t_card_side2",
+		"3": "tamagottimod:block/t_card_side3",
+		"4": "tamagottimod:block/t_card_side4",
+		"particle": "tamagottimod:block/t_card_side4"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}
