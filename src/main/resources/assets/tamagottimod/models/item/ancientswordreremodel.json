@@ -1,0 +1,9 @@
+{
+    "parent":"tamagottimod:item/ancientswordreplica",
+    "overrides": [
+                       {"predicate": {
+                               "blocking": 1},
+                           "model": "tamagottimod:item/ancientswordreplica_blocking"
+                       }
+                   ]
+}

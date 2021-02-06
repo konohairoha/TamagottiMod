@@ -1,0 +1,11 @@
+{
+    "parent":"tamagottimod:block/bettyugadget",
+    "overrides": [
+                       {
+                           "predicate": {
+                               "blocking": 1
+                           },
+                           "model": "tamagottimod:block/bettyugadget_blocking"
+                       }
+                   ]
+}

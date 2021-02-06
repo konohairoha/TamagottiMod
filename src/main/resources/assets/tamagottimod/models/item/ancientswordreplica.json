@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tamagottimod:items/ancientswordreplica"
+    },
+    "overrides": [
+                       {"predicate": {
+                               "blocking": 1},
+                           "model": "tamagottimod:item/ancientswordreplica_blocking"
+                       }
+                   ]
+}

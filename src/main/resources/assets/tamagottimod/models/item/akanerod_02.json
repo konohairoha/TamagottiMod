@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:item/akanerod",
+    "textures": {
+        "layer0": "tamagottimod:items/akanerod_02"
+    }
+}

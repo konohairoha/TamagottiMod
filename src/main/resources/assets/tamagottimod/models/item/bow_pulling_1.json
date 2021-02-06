@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:item/bettyubow",
+    "textures": {
+        "layer0": "tamagottimod:items/bow_pulling_1"
+    }
+}

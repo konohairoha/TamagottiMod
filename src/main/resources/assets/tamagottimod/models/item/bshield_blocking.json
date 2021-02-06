@@ -1,0 +1,6 @@
+{
+    "parent":"tamagottimod:block/tshield_blocking",
+    "textures":{
+        "1": "tamagottimod:block/tshild_b_side"
+    }
+}
