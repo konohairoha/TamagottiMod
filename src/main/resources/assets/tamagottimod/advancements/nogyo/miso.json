@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:miso"
+        },
+        "title": {
+            "translate": "味噌の医者殺し"
+        },
+        "description": {
+            "translate": "味噌の作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/soyseed",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:miso"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

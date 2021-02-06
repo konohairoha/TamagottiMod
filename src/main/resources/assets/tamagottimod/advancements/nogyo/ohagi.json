@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:ohagi"
+        },
+        "title": {
+            "translate": "棚からぼた餅"
+        },
+        "description": {
+            "translate": "おはぎの作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/mochi",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:ohagi"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

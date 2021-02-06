@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:fluorite"
+        },
+        "title": {
+            "translate": "バニラのダイヤはクソ"
+        },
+        "description": {
+            "translate": "フローライトの入手"
+        }
+    },
+    "parent": "tamagottimod:c_pick",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:fluorite"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

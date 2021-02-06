@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottiwand"
+        },
+        "title": {
+            "translate": "弓型マルチツール"
+        },
+        "description": {
+            "translate": "たまごっちワンドを作成"
+        }
+    },
+    "parent": "tamagottimod:b_tamagotti",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottiwand"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

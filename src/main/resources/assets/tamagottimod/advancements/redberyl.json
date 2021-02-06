@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:redberyl"
+        },
+        "title": {
+            "translate": "レッドベリル鉱石"
+        },
+        "description": {
+            "translate": "レッドベリル鉱石の入手"
+        }
+    },
+    "parent": "tamagottimod:f_pick",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:redberyl"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

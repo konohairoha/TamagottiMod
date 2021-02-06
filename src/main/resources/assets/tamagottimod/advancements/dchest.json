@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:dchest"
+        },
+        "title": {
+            "translate": "広範囲回収チェスト"
+        },
+        "description": {
+            "translate": "洋タンスを作成"
+        }
+    },
+    "parent": "tamagottimod:ychest",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:dchest"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

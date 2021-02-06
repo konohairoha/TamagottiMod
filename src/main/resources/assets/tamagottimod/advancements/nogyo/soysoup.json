@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:nc_soysoup"
+        },
+        "title": {
+            "translate": "味噌汁は朝の毒消し"
+        },
+        "description": {
+            "translate": "味噌の作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/miso",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:nc_soysoup"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

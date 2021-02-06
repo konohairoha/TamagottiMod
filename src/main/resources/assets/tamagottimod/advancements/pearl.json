@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:akanepearl"
+        },
+        "title": {
+            "translate": "鉱石を宝玉に"
+        },
+        "description": {
+            "translate": "あかねパール、ゆかりパールを作成"
+        }
+    },
+    "parent": "tamagottimod:crystal",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:akanepearl",
+                        "item": "tamagottimod:yukaripearl"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

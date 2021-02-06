@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:b_tamagotti_book"
+        },
+        "title": {
+            "translate": "全てのクラフトはたまごっちに通ず"
+        },
+        "description": {
+            "translate": "たまごっちクラフト指南書を作成"
+        }
+    },
+    "parent": "tamagottimod:root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:b_tamagotti_book"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

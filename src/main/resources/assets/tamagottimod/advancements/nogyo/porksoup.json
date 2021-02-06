@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:nc_pork_soup"
+        },
+        "title": {
+            "translate": "寒いときは豚汁で決まり！"
+        },
+        "description": {
+            "translate": "豚汁の作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/miso",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:nc_pork_soup"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

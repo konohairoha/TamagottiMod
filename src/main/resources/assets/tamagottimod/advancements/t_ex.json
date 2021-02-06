@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:t_extends"
+        },
+        "title": {
+            "translate": "エクステンド!"
+        },
+        "description": {
+            "translate": "たまごっち・エクステンドの入手"
+        }
+    },
+    "parent": "tamagottimod:srq_ex",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:t_extends"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 425
+        }
+}

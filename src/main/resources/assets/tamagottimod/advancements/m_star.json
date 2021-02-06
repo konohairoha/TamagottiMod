@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:madderstar"
+        },
+        "title": {
+            "translate": "最後の素材"
+        },
+        "description": {
+            "translate": "マダースターを作成"
+        }
+    },
+    "parent": "tamagottimod:t_l",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:madderstar"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 750
+        }
+}

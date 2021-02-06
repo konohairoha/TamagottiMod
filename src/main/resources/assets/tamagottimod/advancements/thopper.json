@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:thopper"
+        },
+        "title": {
+            "translate": "高速ホッパー"
+        },
+        "description": {
+            "translate": "たまごっちホッパーを作成"
+        }
+    },
+    "parent": "tamagottimod:t_book",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:thopper"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

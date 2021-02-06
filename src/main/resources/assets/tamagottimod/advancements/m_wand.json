@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:magicwand"
+        },
+        "title": {
+            "translate": "剣型マルチツール改"
+        },
+        "description": {
+            "translate": "マジックワンドの作成"
+        }
+    },
+    "parent": "tamagottimod:smoky",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:magicwand"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:copperingot"
+        },
+        "title": {
+            "translate": "銅鉱石を手に入れる"
+        },
+        "description": {
+            "translate": "銅インゴットを精錬"
+        }
+    },
+    "parent": "tamagottimod:root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:copperingot"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

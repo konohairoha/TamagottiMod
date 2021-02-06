@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:akaneblade"
+        },
+        "title": {
+            "translate": "茜ちゃんの新しい力"
+        },
+        "description": {
+            "translate": "あかねブレードを作成"
+        }
+    },
+    "parent": "tamagottimod:crystal",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:akaneblade"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 75
+        }
+}

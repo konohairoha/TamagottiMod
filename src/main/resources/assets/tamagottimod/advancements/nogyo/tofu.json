@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tofu"
+        },
+        "title": {
+            "translate": "豆腐に鎹"
+        },
+        "description": {
+            "translate": "豆腐の作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/soyseed",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tofu"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

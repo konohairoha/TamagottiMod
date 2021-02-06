@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:potneo_0"
+        },
+        "title": {
+            "translate": "精錬はさらに加速"
+        },
+        "description": {
+            "translate": "強化鍋を作成"
+        }
+    },
+    "parent": "tamagottimod:pot",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:potneo_0"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

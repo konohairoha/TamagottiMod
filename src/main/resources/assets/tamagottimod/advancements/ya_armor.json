@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:ya_chestplate"
+        },
+        "title": {
+            "translate": "ゆかあか防具"
+        },
+        "description": {
+            "translate": "ゆかあか防具一式を作成"
+        }
+    },
+    "parent": "tamagottimod:y_armor",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:ya_helmet",
+                        "item": "tamagottimod:ya_chestplate",
+                        "item": "tamagottimod:ya_legginsgs",
+                        "item": "tamagottimod:ya_boots"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

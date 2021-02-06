@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:smokyquartz"
+        },
+        "title": {
+            "translate": "スモーキィークオーツ"
+        },
+        "description": {
+            "translate": "スモーキィークオーツの入手"
+        }
+    },
+    "parent": "tamagottimod:r_wand",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:smokyquartz"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

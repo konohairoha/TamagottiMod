@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:ychest"
+        },
+        "title": {
+            "translate": "範囲回収チェスト"
+        },
+        "description": {
+            "translate": "洋風チェストを作成"
+        }
+    },
+    "parent": "tamagottimod:thopper",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:ychest"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

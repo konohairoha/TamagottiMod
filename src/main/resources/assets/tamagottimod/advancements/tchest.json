@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottichest"
+        },
+        "title": {
+            "translate": "超高性能チェスト"
+        },
+        "description": {
+            "translate": "金庫を作成"
+        }
+    },
+    "parent": "tamagottimod:wadansu",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottichest"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:akane_chestplate"
+        },
+        "title": {
+            "translate": "茜ちゃんの防具"
+        },
+        "description": {
+            "translate": "茜防具一式を作成"
+        }
+    },
+    "parent": "tamagottimod:pearl",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:akane_helmet",
+                        "item": "tamagottimod:akane_chestplate",
+                        "item": "tamagottimod:akane_legginsgs",
+                        "item": "tamagottimod:akane_boots"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

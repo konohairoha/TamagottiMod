@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tcrossbow"
+        },
+        "title": {
+            "translate": "大丈夫って…信じてたから"
+        },
+        "description": {
+            "translate": "たまごっちクロスボウのクラフト"
+        }
+    },
+    "parent": "tamagottimod:nogyo/ba_bow",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tcrossbow"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

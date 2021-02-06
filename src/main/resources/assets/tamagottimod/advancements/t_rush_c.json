@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottirushcustom"
+        },
+        "title": {
+            "translate": "大爆発につき使用注意"
+        },
+        "description": {
+            "translate": "たまごっちラッシュ(カスタム)を作成"
+        }
+    },
+    "parent": "tamagottimod:t_rush_n",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottirushcustom"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

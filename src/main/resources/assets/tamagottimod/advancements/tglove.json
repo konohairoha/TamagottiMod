@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tglove"
+        },
+        "title": {
+            "translate": "たまごっちの示す場所"
+        },
+        "description": {
+            "translate": "たまごっちグローブを入手"
+        }
+    },
+    "parent": "tamagottimod:tsail",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tglove"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

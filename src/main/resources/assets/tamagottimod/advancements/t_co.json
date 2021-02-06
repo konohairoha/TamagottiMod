@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagotticollaboration"
+        },
+        "title": {
+            "translate": "たまごっちセレクション2"
+        },
+        "description": {
+            "translate": "たまごっちコラボを作成"
+        }
+    },
+    "parent": "tamagottimod:t_r",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagotticollaboration"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottirepair"
+        },
+        "title": {
+            "translate": "たまごっちセレクション"
+        },
+        "description": {
+            "translate": "たまごっちリペアを作成"
+        }
+    },
+    "parent": "tamagottimod:t_l",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottirepair"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

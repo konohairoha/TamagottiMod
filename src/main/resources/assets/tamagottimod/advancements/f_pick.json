@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:fluoritepickaxe"
+        },
+        "title": {
+            "translate": "範囲採掘ツール"
+        },
+        "description": {
+            "translate": "フローライトピッケルの入手"
+        }
+    },
+    "parent": "tamagottimod:fluorite",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:fluoritepickaxe"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

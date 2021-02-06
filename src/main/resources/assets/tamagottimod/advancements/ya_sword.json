@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:yukaakasword"
+        },
+        "title": {
+            "translate": "茜ちゃんとゆかりさんの二人の力"
+        },
+        "description": {
+            "translate": "ゆかあかソードを作成"
+        }
+    },
+    "parent": "tamagottimod:y_sword",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:yukaakasword"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

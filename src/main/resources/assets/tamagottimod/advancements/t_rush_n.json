@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottirushneo"
+        },
+        "title": {
+            "translate": "使い過ぎに注意"
+        },
+        "description": {
+            "translate": "たまごっちラッシュ(ネオ)を作成"
+        }
+    },
+    "parent": "tamagottimod:t_rush",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottirushneo"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

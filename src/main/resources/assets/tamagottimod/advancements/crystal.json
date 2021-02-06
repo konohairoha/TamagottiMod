@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:akanecrystal"
+        },
+        "title": {
+            "translate": "新たな鉱石"
+        },
+        "description": {
+            "translate": "あかねクリスタル、ゆかりクリスタルを作成"
+        }
+    },
+    "parent": "tamagottimod:root",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:akanecrystal",
+                        "item": "tamagottimod:yukaricrystal"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

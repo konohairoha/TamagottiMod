@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:riter"
+        },
+        "title": {
+            "translate": "火打石の時代は終わりだ"
+        },
+        "description": {
+            "translate": "ライターを作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:riter"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

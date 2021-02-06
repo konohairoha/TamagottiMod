@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:bambooi"
+        },
+        "title": {
+            "translate": "竹生えますね"
+        },
+        "description": {
+            "translate": "竹の入手"
+        }
+    },
+    "parent": "tamagottimod:nogyo/root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:bambooi"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

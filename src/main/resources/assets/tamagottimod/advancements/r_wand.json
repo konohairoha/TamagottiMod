@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:redberylwand"
+        },
+        "title": {
+            "translate": "剣型マルチツール"
+        },
+        "description": {
+            "translate": "レッドベリルワンドの作成"
+        }
+    },
+    "parent": "tamagottimod:redberyl",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:redberylwand"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

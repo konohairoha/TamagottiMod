@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:hheld_farm"
+        },
+        "title": {
+            "translate": "農業スターターセット"
+        },
+        "description": {
+            "translate": "簡易畑生成セットを作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:hheld_farm"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

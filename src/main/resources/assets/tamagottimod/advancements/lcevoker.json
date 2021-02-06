@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "tamagottimod:tspawner_lce"
+		},
+		"title": {
+			"translate": "最後の戦い"
+		},
+		"description": {
+			"translate": "消失都市のエヴォーカーを召喚させる"
+		}
+	},
+	"parent": "tamagottimod:t_ex",
+	"criteria": {
+		"tamagottineo": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "tamagottimod:tspawner_lce"
+			}
+		}
+	},
+	"rewards": {
+		"experience": 750
+	}
+}

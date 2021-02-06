@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottibettyu"
+        },
+        "title": {
+            "translate": "たまごっちベッチュー"
+        },
+        "description": {
+            "translate": "たまごっちベッチューを作成"
+        }
+    },
+    "parent": "tamagottimod:b_book",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottibettyu"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:rice"
+        },
+        "title": {
+            "translate": "日本人と言えばお米"
+        },
+        "description": {
+            "translate": "ご飯を作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:rice"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

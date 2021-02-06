@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagotticustom"
+        },
+        "title": {
+            "translate": "マイナーチェンジ再び！"
+        },
+        "description": {
+            "translate": "たまごっちカスタムを作成"
+        }
+    },
+    "parent": "tamagottimod:tamagottineo",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagotticustom"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

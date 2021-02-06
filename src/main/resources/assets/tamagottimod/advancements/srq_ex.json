@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:srq_extends"
+        },
+        "title": {
+            "translate": "エクステンドシリーズの始まり"
+        },
+        "description": {
+            "translate": "スターローズクォーツ・エクステンドの入手"
+        }
+    },
+    "parent": "tamagottimod:srq",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:srq_extends"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 400
+        }
+}

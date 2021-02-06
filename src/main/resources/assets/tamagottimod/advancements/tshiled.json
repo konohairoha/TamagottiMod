@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tshield"
+        },
+        "title": {
+            "translate": "私が必要なら、いくらでも"
+        },
+        "description": {
+            "translate": "たまごっちシールドの作成"
+        }
+    },
+    "parent": "tamagottimod:root",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tshield",
+                        "item": "tamagottimod:tshieldc"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

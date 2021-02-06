@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:starrosequartz"
+        },
+        "title": {
+            "translate": "最高峰の輝き"
+        },
+        "description": {
+            "translate": "スターローズクォーツの入手"
+        }
+    },
+    "parent": "tamagottimod:m_wand",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:starrosequartz"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 350
+        }
+}

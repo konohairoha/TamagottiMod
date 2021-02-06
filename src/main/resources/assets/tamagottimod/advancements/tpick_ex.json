@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tpick_extends"
+        },
+        "title": {
+            "translate": "扱いには注意を"
+        },
+        "description": {
+            "translate": "たまごっちピッケル・エクステンドの入手"
+        }
+    },
+    "parent": "tamagottimod:t_ex",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tpick_extends"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 450
+        }
+}

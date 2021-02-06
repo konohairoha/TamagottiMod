@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottimadder"
+        },
+        "title": {
+            "translate": "最後のたまごっち"
+        },
+        "description": {
+            "translate": "たまごっちマダーを作成"
+        }
+    },
+    "parent": "tamagottimod:m_star",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottimadder"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 500
+        }
+}

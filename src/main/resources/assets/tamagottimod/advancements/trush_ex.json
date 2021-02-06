@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:trush_extends"
+        },
+        "title": {
+            "translate": "広範囲連続爆発"
+        },
+        "description": {
+            "translate": "たまごっちラッシュ・エクステンドの入手"
+        }
+    },
+    "parent": "tamagottimod:t_ex",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:trush_extends"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 700
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:swchest"
+        },
+        "title": {
+            "translate": "最高傑作のチェスト"
+        },
+        "description": {
+            "translate": "スイッチの作成"
+        }
+    },
+    "parent": "tamagottimod:tchest",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:swchest"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

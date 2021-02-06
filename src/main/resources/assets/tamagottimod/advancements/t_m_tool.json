@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottipickaxemadder"
+        },
+        "title": {
+            "translate": "オーバースペック"
+        },
+        "description": {
+            "translate": "たまごっちマダーツール一式を作成"
+        }
+    },
+    "parent": "tamagottimod:t_m",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottiaxemadder",
+                        "item": "tamagottimod:tamagottipickaxemadder",
+                        "item": "tamagottimod:tamagottiswordmadder",
+                        "item": "tamagottimod:tamagottishovelmadder"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 3000
+        }
+}

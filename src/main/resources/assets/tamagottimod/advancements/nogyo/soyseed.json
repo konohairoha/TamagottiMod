@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:soyseed"
+        },
+        "title": {
+            "translate": "大豆は畑の肉"
+        },
+        "description": {
+            "translate": "大豆を入手"
+        }
+    },
+    "parent": "tamagottimod:nogyo/root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:soyseed"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

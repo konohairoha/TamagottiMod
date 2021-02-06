@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tdisplay_1"
+        },
+        "title": {
+            "translate": "4tick更新しました"
+        },
+        "description": {
+            "translate": "たまごっちディスプレイを作成"
+        }
+    },
+    "parent": "tamagottimod:potcustom",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tdisplay_0"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

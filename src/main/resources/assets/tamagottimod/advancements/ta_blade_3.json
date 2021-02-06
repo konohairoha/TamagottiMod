@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottiakaneblade_4"
+        },
+        "title": {
+            "translate": "覚醒・たまごっちあかねブレード"
+        },
+        "description": {
+            "translate": "覚醒・たまごっちあかねブレードを作成"
+        }
+    },
+    "parent": "tamagottimod:ta_blade_0",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottiakaneblade_4"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

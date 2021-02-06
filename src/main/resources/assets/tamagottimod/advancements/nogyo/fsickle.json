@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:fluoritesickle"
+        },
+        "title": {
+            "translate": "農業革命"
+        },
+        "description": {
+            "translate": "フローライトの鎌を作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/hheld_farm",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:fluoritesickle"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

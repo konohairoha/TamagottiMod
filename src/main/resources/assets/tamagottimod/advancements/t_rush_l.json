@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottirushlink"
+        },
+        "title": {
+            "translate": "超大爆発につき使用禁止"
+        },
+        "description": {
+            "translate": "たまごっちラッシュ(リンク)を作成"
+        }
+    },
+    "parent": "tamagottimod:t_rush_c",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottirushlink"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}

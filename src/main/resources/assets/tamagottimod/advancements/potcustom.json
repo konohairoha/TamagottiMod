@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:potcustom_0"
+        },
+        "title": {
+            "translate": "多分これが一番早いと思います"
+        },
+        "description": {
+            "translate": "たまごっち鍋を作成"
+        }
+    },
+    "parent": "tamagottimod:potneo",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:potcustom_0"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottirushmadder"
+        },
+        "title": {
+            "translate": "ワールド落とし"
+        },
+        "description": {
+            "translate": "たまごっちラッシュ(マダー)を作成"
+        }
+    },
+    "parent": "tamagottimod:t_rush_l",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottirushmadder"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 400
+        }
+}

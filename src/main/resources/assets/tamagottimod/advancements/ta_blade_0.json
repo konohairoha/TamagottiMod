@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottiakaneblade_0"
+        },
+        "title": {
+            "translate": "たまごっち茜誕生！"
+        },
+        "description": {
+            "translate": "たまごっちあかねブレードを作成"
+        }
+    },
+    "parent": "tamagottimod:a_blade",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottiakaneblade_0"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

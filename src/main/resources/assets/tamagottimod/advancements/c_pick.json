@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:copperpickaxe"
+        },
+        "title": {
+            "translate": "銅のツルハシで決まり"
+        },
+        "description": {
+            "translate": "ツルハシを強化する"
+        }
+    },
+    "parent": "tamagottimod:c_ingot",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:copperpickaxe"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 75
+        }
+}

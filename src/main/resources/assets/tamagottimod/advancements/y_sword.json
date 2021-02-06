@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:yukarisword"
+        },
+        "title": {
+            "translate": "ゆかりさんの新たな力"
+        },
+        "description": {
+            "translate": "ゆかりソードを作成"
+        }
+    },
+    "parent": "tamagottimod:crystal",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:yukarisword"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 75
+        }
+}

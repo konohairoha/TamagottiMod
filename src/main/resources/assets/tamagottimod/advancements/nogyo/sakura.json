@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:sakurasapling"
+        },
+        "title": {
+            "translate": "あの桜の木の下で・・・"
+        },
+        "description": {
+            "translate": "桜の苗木の入手"
+        }
+    },
+    "parent": "tamagottimod:nogyo/bamboo",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:sakurasapling"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 75
+        }
+}

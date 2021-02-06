@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:herocharger"
+        },
+        "title": {
+            "translate": "見慣れないブキがまぎれていたようだね．．．"
+        },
+        "description": {
+            "translate": "ヒーローチャージャーを作成"
+        }
+    },
+    "parent": "tamagottimod:h_tama",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:herocharger"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 500
+        }
+}

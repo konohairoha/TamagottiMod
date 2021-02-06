@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagotti_book_neo"
+        },
+        "title": {
+            "translate": "てんこもり"
+        },
+        "description": {
+            "translate": "たまごっちクラフト指南書ネオを作成"
+        }
+    },
+    "parent": "tamagottimod:wadansu",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagotti_book_neo"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

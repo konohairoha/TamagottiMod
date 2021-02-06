@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:bettyubook"
+        },
+        "title": {
+            "translate": "はじまりのベッチュー"
+        },
+        "description": {
+            "translate": "ベッチューの書を作成"
+        }
+    },
+    "parent": "tamagottimod:root",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:bettyubook"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

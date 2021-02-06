@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottiwandrepair"
+        },
+        "title": {
+            "translate": "強化弓型マルチツール"
+        },
+        "description": {
+            "translate": "たまごっちワンドリペアを作成"
+        }
+    },
+    "parent": "tamagottimod:t_wand",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottiwandrepair"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 400
+        }
+}

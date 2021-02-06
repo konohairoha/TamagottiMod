@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:pot_0"
+        },
+        "title": {
+            "translate": "カマドは時代遅れ"
+        },
+        "description": {
+            "translate": "鍋を作成"
+        }
+    },
+    "parent": "tamagottimod:t_book",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:pot_0"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 150
+        }
+}

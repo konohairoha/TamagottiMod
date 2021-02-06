@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:bamboobow"
+        },
+        "title": {
+            "translate": "狙いを定めて"
+        },
+        "description": {
+            "translate": "竹弓と竹矢で何かを撃つ"
+        }
+    },
+    "parent": "tamagottimod:nogyo/bamboo",
+    "criteria": {
+        "shot_arrow": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "tamagottimod:tkarrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

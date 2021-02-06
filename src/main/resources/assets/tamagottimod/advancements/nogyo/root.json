@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:riceseed"
+        },
+        "title": {
+            "translate": "農業の始まり"
+        },
+        "description": {
+            "translate": "種籾を入手"
+        },
+        "background": "tamagottimod:textures/block/t_hydra_iron1.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:riceseed"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 25
+        }
+}

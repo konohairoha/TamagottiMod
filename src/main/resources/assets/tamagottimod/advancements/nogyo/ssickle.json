@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:smokysickle"
+        },
+        "title": {
+            "translate": "農業アップグレード"
+        },
+        "description": {
+            "translate": "スモキィーの鎌を作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/fsickle",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:smokysickle"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tcontract"
+        },
+        "title": {
+            "translate": "ぼくと契約して(ry"
+        },
+        "description": {
+            "translate": "たまごっちの契約書の作成"
+        }
+    },
+    "parent": "tamagottimod:t_co",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tcontract"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 250
+        }
+}

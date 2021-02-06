@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottirush"
+        },
+        "title": {
+            "translate": "新スペシャル"
+        },
+        "description": {
+            "translate": "たまごっちラッシュを作成"
+        }
+    },
+    "parent": "tamagottimod:root",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottirush"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

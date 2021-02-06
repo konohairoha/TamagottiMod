@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:heroblaster"
+        },
+        "title": {
+            "translate": "持ち出し禁止！"
+        },
+        "description": {
+            "translate": "ヒーローブラスターを作成"
+        }
+    },
+    "parent": "tamagottimod:h_tama",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:heroblaster"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 500
+        }
+}

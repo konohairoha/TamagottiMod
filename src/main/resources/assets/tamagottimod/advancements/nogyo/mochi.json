@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:mochi"
+        },
+        "title": {
+            "translate": "絵に描いた餅"
+        },
+        "description": {
+            "translate": "お餅を作成"
+        }
+    },
+    "parent": "tamagottimod:nogyo/rice",
+    "criteria": {
+        "akanepearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:mochi"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 50
+        }
+}

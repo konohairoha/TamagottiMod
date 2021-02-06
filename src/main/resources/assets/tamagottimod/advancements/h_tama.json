@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:h_tama"
+        },
+        "title": {
+            "translate": "心の中のたまごっち"
+        },
+        "description": {
+            "translate": "ヒーローたまごっちをヒーローたまごっち鉱石から入手"
+        }
+    },
+    "parent": "tamagottimod:t_n",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:h_tama"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 400
+        }
+}

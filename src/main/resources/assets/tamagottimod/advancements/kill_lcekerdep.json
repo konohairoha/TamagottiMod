@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tcrystal"
+        },
+        "title": {
+            "translate": "終わりの終わり"
+        },
+        "description": {
+            "translate": "消失都市のウワサを倒す"
+        },
+        "hidden": "true",
+        "frame": "goal"
+    },
+    "parent": "tamagottimod:kill_lcevoker",
+    "criteria": {
+        "lcevokerdep": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tamagottimod:lcevokerdep"
+                }
+            }
+        }
+    },
+   "rewards": {
+        "experience": 1000
+        }
+}

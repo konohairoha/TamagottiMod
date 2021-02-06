@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tsail"
+        },
+        "title": {
+            "translate": "閉ざされた台地"
+        },
+        "description": {
+            "translate": "たまごっちパラセールを入手"
+        }
+    },
+    "parent": "tamagottimod:tamagottineo",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tsail"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 100
+        }
+}

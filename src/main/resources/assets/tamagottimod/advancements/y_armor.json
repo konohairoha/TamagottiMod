@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:yukari_chestplate"
+        },
+        "title": {
+            "translate": "ゆかりさんの防具"
+        },
+        "description": {
+            "translate": "ゆかり防具一式を作成"
+        }
+    },
+    "parent": "tamagottimod:pearl",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:yukari_helmet",
+                        "item": "tamagottimod:yukari_chestplate",
+                        "item": "tamagottimod:yukari_legginsgs",
+                        "item": "tamagottimod:yukari_boots"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 200
+        }
+}

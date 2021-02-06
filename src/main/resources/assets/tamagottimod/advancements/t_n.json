@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "tamagottimod:tamagottinecro"
+        },
+        "title": {
+            "translate": "たまごっちセレクション3"
+        },
+        "description": {
+            "translate": "たまごっちネクロを作成"
+        }
+    },
+    "parent": "tamagottimod:t_co",
+    "criteria": {
+        "tamagottineo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tamagottimod:tamagottinecro"
+                    }
+                ]
+            }
+        }
+    },
+   "rewards": {
+        "experience": 300
+        }
+}
