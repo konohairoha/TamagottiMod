@@ -1,0 +1,9 @@
+{
+    "parent":"tamagottimod:block/yukaakablade3",
+  "overrides": [{
+            "predicate": {
+            "tamagottimod:active": 1},
+            "model": "tamagottimod:block/yukaakablade3_wand"
+        }
+  ]
+}

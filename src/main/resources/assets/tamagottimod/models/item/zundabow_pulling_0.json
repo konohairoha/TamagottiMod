@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:item/zundabow",
+    "textures": {
+        "layer0": "tamagottimod:items/zundabow_pulling_0"
+    }
+}

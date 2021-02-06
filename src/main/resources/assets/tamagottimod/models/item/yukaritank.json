@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"0": "tamagottimod:block/t_hydra_iron1"
+	},
+	"elements": [
+		{
+			"from": [0.75, 7.75, 7.4],
+			"to": [6.75, 9, 8.65],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [2.5, 2, 2],
+			"rotation": [106, 115, 0],
+			"translation": [-1.5, 10, 3]
+		},
+		"thirdperson_lefthand": {
+			"scale": [2.5, 2, 2],
+			"rotation": [70, -76, 0],
+			"translation": [-1.5, 14.5, -4]
+		},
+		"firstperson_righthand": {
+			"scale": [2.5, 2, 2],
+			"translation": [1.5, 8, 0],
+			"rotation": [30, 82, -10]
+		},
+		"firstperson_lefthand": {
+			"scale": [2.5, 2, 2],
+			"rotation": [20, -89, -1],
+			"translation": [0, 6.5, 0]
+		},
+		"ground": {
+			"scale": [1.75, 1.5, 1.5]
+		},
+		"fixed": {
+			"scale": [2, 2, 2],
+			"rotation": [16, 173, 0],
+			"translation": [-8.5, 0, -2]
+		},
+		"gui": {
+			"scale": [2, 2, 2],
+			"rotation": [-17, -10, -1],
+			"translation": [8.5, 0, 0]
+		}
+	}
+}

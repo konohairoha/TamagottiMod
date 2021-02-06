@@ -1,0 +1,11 @@
+{
+    "parent":"tamagottimod:item/tshield",
+    "overrides": [
+                       {
+                           "predicate": {
+                               "blocking": 1
+                           },
+                           "model": "tamagottimod:item/tshield_blocking"
+                       }
+                   ]
+}

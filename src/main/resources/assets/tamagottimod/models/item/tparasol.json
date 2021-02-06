@@ -1,0 +1,11 @@
+{
+  "parent": "tamagottimod:block/parasol",
+  "overrides": [
+    {
+        "predicate": {
+        "tamagottimod:active": 1
+        },
+        "model": "tamagottimod:block/parasol_open"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "parent":"tamagottimod:block/tshield",
+    "textures":{
+        "1": "tamagottimod:block/tshild_side"
+    },
+    "overrides": [
+                       {
+                           "predicate": {
+                               "blocking": 1
+                           },
+                           "model": "tamagottimod:item/tshield_blocking"
+                       }
+                   ]
+}

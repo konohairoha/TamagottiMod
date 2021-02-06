@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tamagottimod:items/y_pendant_off"
+  },
+  "overrides": [
+    {
+        "predicate": {
+        "tamagottimod:active": 1
+        },
+        "model": "tamagottimod:item/y_pendant_on"
+    }
+  ]
+}

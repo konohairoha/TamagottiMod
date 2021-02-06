@@ -1,0 +1,12 @@
+{
+    "parent":"tamagottimod:block/tsail",
+    "textures":{
+        "0": "tamagottimod:block/c_side2"
+    },
+  "overrides": [{
+            "predicate": {
+            "tamagottimod:active": 1},
+            "model": "tamagottimod:block/tsail_open"
+        }
+  ]
+}

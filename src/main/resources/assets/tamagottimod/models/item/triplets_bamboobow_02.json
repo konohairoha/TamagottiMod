@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:item/triplets_bamboobow",
+    "textures": {
+        "layer0": "tamagottimod:items/triplets_bamboobow_02"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:block/yukarishotter",
+    "textures":{
+        "2": "tamagottimod:block/y_shooter"
+    }
+}

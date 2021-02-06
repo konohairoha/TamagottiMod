@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:block/yukarrittascope",
+    "textures":{
+        "5": "tamagottimod:block/t_hydra_iron2"
+    }
+}
