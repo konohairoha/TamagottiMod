@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "tamagottimod:block/sakuraplanks1",
+      "bottom": "#top",
+      "side": "#top",
+      "all": "tamagottimod:block/sakuraplanks1w"
+    }
+  },
+  "variants": {
+    "inventory": [{"model": "half_slab"}],
+    "half=bottom": {
+      "model": "half_slab"
+    },
+    "half=top": {
+      "model": "upper_slab"
+    },
+    "half=full": {
+      "model": "minecraft:cube_all"
+    }
+  }
+}

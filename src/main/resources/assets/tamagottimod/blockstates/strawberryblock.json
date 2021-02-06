@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "crop",
+    "textures": {
+      "crop": "tamagottimod:block/strawberry_stage3"
+    }
+  },
+  "variants": {
+    "age": {
+      "0": { "model": "crop", "textures": { "crop": "tamagottimod:block/strawberry_stage0" }},
+      "1": { "model": "crop", "textures": { "crop": "tamagottimod:block/strawberry_stage1" }},
+      "2": { "model": "crop", "textures": { "crop": "tamagottimod:block/strawberry_stage1" }},
+      "3": { "model": "crop", "textures": { "crop": "tamagottimod:block/strawberry_stage2" }},
+      "4": { "model": "crop", "textures": { "crop": "tamagottimod:block/strawberry_stage3" }}
+    },
+     "inventory": [{}]
+  }
+}

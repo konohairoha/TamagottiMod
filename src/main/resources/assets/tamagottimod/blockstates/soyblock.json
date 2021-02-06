@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "crop",
+    "textures": {
+      "crop": "tamagottimod:block/soy_stage4"
+    }
+  },
+  "variants": {
+    "age": {
+      "0": { "model": "crop", "textures": { "crop": "tamagottimod:block/soy_stage0" }},
+      "1": { "model": "crop", "textures": { "crop": "tamagottimod:block/soy_stage1" }},
+      "2": { "model": "crop", "textures": { "crop": "tamagottimod:block/soy_stage2" }},
+      "3": { "model": "crop", "textures": { "crop": "tamagottimod:block/soy_stage3" }},
+      "4": { "model": "crop", "textures": { "crop": "tamagottimod:block/soy_stage4" }}
+    },
+     "inventory": [{}]
+  }
+}

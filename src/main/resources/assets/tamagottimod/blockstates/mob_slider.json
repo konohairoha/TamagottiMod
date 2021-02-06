@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+        "model": "tamagottimod:basewood",
+    "textures": {
+            "particle": "tamagottimod:block/mob_jumper_0",
+            "top": "tamagottimod:block/mob_jumper_2",
+            "side": "tamagottimod:block/mob_jumper_0"
+    }
+  },
+  "variants": {
+    "facing": {
+      "north": {"y": 90},
+      "south": {"y": 270},
+      "west": {},
+      "east": {"y": 180}
+    },
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "base": "blocks/netherrack",
+            "ore": "tamagottimod:block/ruby_ore"
+        },
+        "model": "tamagottimod:ore"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

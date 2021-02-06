@@ -1,0 +1,15 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "particle": "tamagottimod:block/mob_jumper_3",
+            "top": "tamagottimod:block/linktp",
+            "side": "tamagottimod:block/mob_jumper_3"
+        },
+        "model": "tamagottimod:basewood"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

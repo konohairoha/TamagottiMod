@@ -1,0 +1,15 @@
+
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "base": "blocks/end_stone",
+            "ore": "tamagottimod:block/t_h_ore"
+        },
+        "model": "tamagottimod:ore"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

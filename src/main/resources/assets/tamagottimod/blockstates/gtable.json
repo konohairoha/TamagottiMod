@@ -1,0 +1,20 @@
+{
+"variants": {
+    "back=false,forward=true,left=false,right=true": {"model": "tamagottimod:gtable_2", "y": 270, "uvlock": true},
+    "back=false,forward=true,left=true,right=false": {"model": "tamagottimod:gtable_2", "y": 180, "uvlock": true},
+    "back=true,forward=false,left=false,right=true": {"model": "tamagottimod:gtable_2","uvlock": true},
+    "back=true,forward=false,left=true,right=false": {"model": "tamagottimod:gtable_2", "y": 90, "uvlock": true },
+    "back=false,forward=true,left=false,right=false": { "model": "tamagottimod:gtable_1", "y": 270, "uvlock": true },
+    "back=false,forward=false,left=false,right=true": { "model": "tamagottimod:gtable_1","uvlock": true },
+    "back=false,forward=false,left=true,right=false": { "model": "tamagottimod:gtable_1", "y": 180, "uvlock": true },
+    "back=true,forward=false,left=false,right=false": { "model": "tamagottimod:gtable_1", "y": 90, "uvlock": true },
+    "back=false,forward=false,left=false,right=false": { "model": "tamagottimod:gtable_0","uvlock": true },
+    "back=true,forward=true,left=false,right=false": { "model": "tamagottimod:gtable_5", "y": 90, "uvlock": true },
+    "back=false,forward=false,left=true,right=true": { "model": "tamagottimod:gtable_5", "uvlock": true },
+    "back=false,forward=true,left=true,right=true": { "model": "tamagottimod:gtable_4", "uvlock": true },
+    "back=true,forward=false,left=true,right=true": { "model": "tamagottimod:gtable_4", "y": 180, "uvlock": true },
+    "back=true,forward=true,left=false,right=true": { "model": "tamagottimod:gtable_4", "y": 90, "uvlock": true },
+    "back=true,forward=true,left=true,right=false": { "model": "tamagottimod:gtable_4", "y": 270, "uvlock": true },
+    "back=true,forward=true,left=true,right=true": { "model": "tamagottimod:gtable_3","uvlock": true }
+    }
+}

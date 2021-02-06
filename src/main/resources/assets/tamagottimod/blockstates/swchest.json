@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "facing=north,type=default": {"model": "tamagottimod:swchest", "y": 180},
+        "facing=north,type=left": {"model": "tamagottimod:swchest", "y": 180},
+        "facing=north,type=right": {"model": "tamagottimod:swchest", "y": 180},
+        "facing=north,type=both": {"model": "tamagottimod:swchest", "y": 180},
+
+        "facing=south,type=default": {"model": "tamagottimod:swchest", "y": 0},
+        "facing=south,type=left": {"model": "tamagottimod:swchest", "y": 0},
+        "facing=south,type=right": {"model": "tamagottimod:swchest", "y": 0},
+        "facing=south,type=both": {"model": "tamagottimod:swchest", "y": 0},
+
+        "facing=west,type=default": {"model": "tamagottimod:swchest", "y": 90},
+        "facing=west,type=left": {"model": "tamagottimod:swchest", "y": 90},
+        "facing=west,type=right": {"model": "tamagottimod:swchest", "y": 90},
+        "facing=west,type=both": {"model": "tamagottimod:swchest", "y": 90},
+
+        "facing=east,type=default": {"model": "tamagottimod:swchest", "y": 270},
+        "facing=east,type=left": {"model": "tamagottimod:swchest", "y": 270},
+        "facing=east,type=right": {"model": "tamagottimod:swchest", "y": 270},
+        "facing=east,type=both": {"model": "tamagottimod:swchest", "y": 270}
+    }
+}

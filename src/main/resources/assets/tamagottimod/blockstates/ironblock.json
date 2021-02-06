@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cross",
+    "textures": {
+      "cross": "tamagottimod:block/iron_stage5"
+    }
+  },
+  "variants": {
+    "age": {
+      "0": { "model": "cross", "textures": { "cross": "tamagottimod:block/ore_stage0" }},
+      "1": { "model": "cross", "textures": { "cross": "tamagottimod:block/ore_stage1" }},
+      "2": { "model": "cross", "textures": { "cross": "tamagottimod:block/ore_stage2" }},
+      "3": { "model": "cross", "textures": { "cross": "tamagottimod:block/ore_stage3" }},
+      "4": { "model": "cross", "textures": { "cross": "tamagottimod:block/iron_stage4" }},
+      "5": { "model": "cross", "textures": { "cross": "tamagottimod:block/iron_stage5" }}
+    },
+     "inventory": [{}]
+  }
+}

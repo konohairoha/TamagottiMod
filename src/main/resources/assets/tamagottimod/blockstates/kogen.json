@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "0": "tamagottimod:items/kogen"
+        },
+        "model": "tamagottimod:kogen"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

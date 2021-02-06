@@ -1,0 +1,14 @@
+
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tamagottimod:block/sakuraplanks1"
+        },
+        "model": "cube_all"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

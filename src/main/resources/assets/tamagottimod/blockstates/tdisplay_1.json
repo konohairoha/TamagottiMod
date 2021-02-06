@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tamagottimod:tdisplay_1",
+    "textures": {
+      "0": "tamagottimod:block/b_sco",
+      "1": "tamagottimod:block/tdis"
+    }
+  },
+  "variants": {
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [{}]
+  }
+}

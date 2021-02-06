@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "age=0": { "model": "tamagottimod:cabbage_0" },
+        "age=1": { "model": "tamagottimod:cabbage_1" },
+        "age=2": { "model": "tamagottimod:cabbage_2" },
+        "age=3": { "model": "tamagottimod:cabbage_3" }
+    }
+}
