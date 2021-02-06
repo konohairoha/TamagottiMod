@@ -1,0 +1,11 @@
+{
+	"parent": "tamagottimod:block/silvershield",
+	"overrides": [
+		{
+			"predicate": {
+				"blocking": 1
+			},
+			"model": "tamagottimod:block/silvershield_blocking"
+		}
+	]
+}

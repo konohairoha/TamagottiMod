@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tamagottimod:items/ta_blade_5"
+    },
+    "overrides": [
+                       {
+                           "predicate": {
+                               "blocking": 1
+                           },
+                           "model": "tamagottimod:item/tablade_5_blocking"
+                       }
+                   ]
+}

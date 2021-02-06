@@ -1,0 +1,14 @@
+{
+    "parent":"tamagottimod:block/tamagottisheltersorella",
+    "textures":{
+        "3": "tamagottimod:block/n_side"
+    },
+    "overrides": [
+                       {
+                           "predicate": {
+                               "blocking": 1
+                           },
+                           "model": "tamagottimod:block/tamagottishelter_blocking"
+                       }
+                   ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "tamagottimod:item/sword_blocking",
+    "textures": {
+        "layer0": "tamagottimod:items/ta_blade_5"
+    }
+}
