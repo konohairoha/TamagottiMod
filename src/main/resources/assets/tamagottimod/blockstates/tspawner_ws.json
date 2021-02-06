@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tamagottimod:tspawner",
+    "textures": {
+      "top": "tamagottimod:block/spawner_td",
+      "side": "tamagottimod:block/spawner_side",
+      "east": "tamagottimod:block/spawner_ws"
+    }
+  },
+  "variants": {
+    "facing": {
+      "north": {"y": 90},
+      "south": {"y": 270},
+      "west": {},
+      "east": {"y": 180}
+    },
+    "inventory": [{}]
+  }
+}

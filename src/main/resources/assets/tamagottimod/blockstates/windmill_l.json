@@ -1,0 +1,25 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+        "textures": {
+            "0": "tamagottimod:block/empty"
+        },
+        "model": "tamagottimod:kogen"
+    },
+  "variants": {
+    "facing": {
+      "north": {},
+      "south": {},
+      "west": {},
+      "east": {},
+      "up": {},
+      "down": {}
+    },
+     "inventory": [{
+     "model": "builtin/generated",
+        "textures": {
+          "layer0": "tamagottimod:items/windmill_l"
+        }
+     }]
+  }
+}

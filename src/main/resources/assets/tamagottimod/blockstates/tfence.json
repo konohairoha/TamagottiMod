@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "tamagottimod:tfence"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

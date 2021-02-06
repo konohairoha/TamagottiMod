@@ -1,0 +1,28 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tamagottimod:ychest"
+  },
+    "variants": {
+        "facing=north,type=default": {"y": 0},
+        "facing=north,type=left": {"y": 0},
+        "facing=north,type=right": {"y": 0},
+        "facing=north,type=both": {"y": 0},
+
+        "facing=south,type=default": {"y": 180},
+        "facing=south,type=left": {"y": 180},
+        "facing=south,type=right": {"y": 180},
+        "facing=south,type=both": {"y": 180},
+
+        "facing=west,type=default": {"y": 270},
+        "facing=west,type=left": {"y": 270},
+        "facing=west,type=right": {"y": 270},
+        "facing=west,type=both": {"y": 270},
+
+        "facing=east,type=default": {"y": 90},
+        "facing=east,type=left": {"y": 90},
+        "facing=east,type=right": {"y": 90},
+        "facing=east,type=both": {"y": 90},
+    "inventory": [{}]
+  }
+}

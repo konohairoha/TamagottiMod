@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tamagottimod:thopper_s_down",
+    "textures": {
+      "0": "tamagottimod:block/sokumen",
+      "1": "tamagottimod:block/sokumenfiltar"
+    }
+  },
+  "variants": {
+    "side": {
+      "north": {"model": "tamagottimod:thopper_s_side"},
+      "south": {"model": "tamagottimod:thopper_s_side", "y": 180 },
+      "west": {"model": "tamagottimod:thopper_s_side", "y": 270 },
+      "east": {"model": "tamagottimod:thopper_s_side", "y": 90 },
+      "up": {},
+      "down": {}
+    },
+    "inventory": [{}]
+  }
+}
