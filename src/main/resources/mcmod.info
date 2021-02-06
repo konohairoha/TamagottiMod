@@ -1,0 +1,15 @@
+﻿[
+    {
+        "modid": "tamagottimod",
+        "name": "Tamagottimod",
+        "description": "this mod is add to many items, foods and so on.",
+        "version": "6.06",
+        "mcversion": "1.12.2",
+        "url": "https://ux.getuploader.com/TamagottiMod/",
+        "updateUrl": "https://ux.getuploader.com/TamagottiMod/",
+        "authorList": ["konohairoha, window_voice"],
+        "logoFile": "assets/logofile_tama.png",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
