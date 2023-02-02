@@ -21,5 +21,5 @@ Youtube：    https://www.youtube.com/watch?v=gqr4SHtmW1A&list=PLS4r70Fh9GcvAl6D
 このmodは開発中のため、不具合等が発生した際は一切保証いたしません。
 
 # Prerelease
-開発中のたまごっち
+開発中のたまごっちmod<br>
 [tamagottimod-6.14.zip](https://github.com/konohairoha/TamagottiMod/files/10567672/tamagottimod-6.14.zip)
